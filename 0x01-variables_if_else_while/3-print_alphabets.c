@@ -1,0 +1,26 @@
+#include <studio.h>
+/**
+ * main - entry point
+ * Return: 0 (success)
+ */
+
+int main(void)
+{
+	char x = 'a';
+	char y = 'A';
+
+	while (x <= 'z')
+	{
+		putchar(x);
+		x += 1;
+	}
+	while (y <= 'z')
+	{ 
+		putchar(y);
+		y += 1;
+	}
+	putchar(10);
+	return (0);
+}	
+
+		
