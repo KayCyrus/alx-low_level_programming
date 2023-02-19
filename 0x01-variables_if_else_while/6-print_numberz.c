@@ -10,6 +10,7 @@ int main(void)
 	while (x <= 9)
 	{
 		putchar(x + '0');
+		x += 1;
 	}
 	putchar(10);
 	return (0);
