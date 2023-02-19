@@ -14,13 +14,11 @@ int main(void)
 		putchar(x);
 		x += 1;
 	}
-	while (y <= 'z')
-	{ 
+	while (y <= 'Z')
+	{
 		putchar(y);
 		y += 1;
 	}
 	putchar(10);
 	return (0);
-}	
-
-		
+}
