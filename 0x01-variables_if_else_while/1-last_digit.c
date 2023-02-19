@@ -31,5 +31,6 @@ int main(void)
 	{
 		printf("Last digits of %d is %d and less than 6 and not 0\n", n, x);
 	}
-i		return (0);
+
+	return (0);
 }
