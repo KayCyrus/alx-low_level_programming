@@ -14,7 +14,7 @@ int main(void)
 	while (x <= 9)
 	{
 		printf("%d", x);
-		x += 1
+		x += 1;
 	}
 	putchar(10);
 	return (0);
